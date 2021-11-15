@@ -12,8 +12,10 @@ SOUTHEAST = 'SE'
 SOUTHWEST = 'SW'
 
 
+# Class with graph operations
 class Graph:
 
+    # Receives a file and creates a directional weighted graph from it
     def __init__(self, input_file):
         self.graph = defaultdict(list)
         self.colors, self.directions = self.read_file(input_file)
