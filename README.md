@@ -6,6 +6,9 @@ numpy~=1.19.5
 
 There is a requirements.txt file to facilitated the import of packages.
 
+#### GITHUB
+https://github.com/thiagofmedeiros/Project_2
+
 #### How to run
 The program must take two command line parameters: (1) the input file name; and (2) the output file name. See below for an example.
 
