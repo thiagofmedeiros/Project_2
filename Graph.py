@@ -66,7 +66,7 @@ class Graph:
         # No route found
         return None
 
-    # Add edge with wieght and direction to graph
+    # Add edge with weight and direction to graph
     def add_edge(self, src, dest, weight, direction):
         new_edge = [dest, weight, direction]
         self.graph[src].insert(0, new_edge)
